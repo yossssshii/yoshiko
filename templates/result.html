@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<style> 
+.home{font-size: 150%}
+</style> 
+
+
+<center>
+    <h4>暗部面積率</h4>
+    <h1>{{ dark_ratio }}%</h1>
+
+    <img src= "{{ image_path }}" style="margin: 10px; vertical-align: bottom; width: 500px;">
+    <img src= "{{ output_path }}" style="margin: 10px; vertical-align: bottom; width: 500px;">
+
+
+    <br>
+    <a href="/" class="home">ホームへ戻る</a>
+</center>
+{% endblock %}
